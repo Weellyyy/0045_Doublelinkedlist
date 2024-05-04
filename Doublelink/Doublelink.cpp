@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-struct node {
+struct Node {
 	int noMhs;
 	string name;
 	Node* next;
@@ -9,3 +9,8 @@ struct node {
 };
 
 Node* START = NULL;
+
+void addNode()
+{
+
+}
