@@ -21,4 +21,13 @@ void addNode()
 	// insert the new node in the list
 	if (START == NULL || newNode->noMhs <= START->noMhs)
 	{// step 2: insert the new node at the beginning
+		if (START != NULL && newNode->noMhs == START->noMhs)
+		{
+			cout << "\033[31mDuplicate roll number not allowed\033[0m" << endl;
+			return;
+		}
+		// if the list is emty, make the new node the START
+		newNode->next = START; // step 3: make the new node point to the first node
+		if (START != NULL)
+
 }
