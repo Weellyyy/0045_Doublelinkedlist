@@ -7,3 +7,5 @@ struct node {
 	Node* next;
 	Node* prev;
 };
+
+Node* START = NULL;
